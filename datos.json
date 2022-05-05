@@ -1,0 +1,982 @@
+[{
+	"Genre": "Animation",
+	"Title": "Star Wars: The Clone Wars (season 6)",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2014,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 80
+}, {
+	"Genre": "Comedy",
+	"Title": "Arrested Development (season 4)",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2013,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 15,
+	"IMDB_Rating": 89
+}, {
+	"Genre": "Comedy",
+	"Title": "Russell Peters vs. the World",
+	"Subgenre": "Docu-Series",
+	"Premiere_Year": 2013,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 4,
+	"IMDB_Rating": 60
+}, {
+	"Genre": "Comedy",
+	"Title": "BoJack Horseman",
+	"Subgenre": "Adult Animation",
+	"Premiere_Year": 2014,
+	"Status": "Renewed",
+	"Seasons": 3,
+	"Episodes": 36,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Comedy",
+	"Title": "Trailer Park Boys (seasons 8, 9, 10 and 11)",
+	"Subgenre": "Mockumentary",
+	"Premiere_Year": 2014,
+	"Status": "Pending",
+	"Seasons": 4,
+	"Episodes": 40,
+	"IMDB_Rating": 85
+}, {
+	"Genre": "Comedy",
+	"Title": "Unbreakable Kimmy Schmidt",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 3,
+	"Episodes": 39,
+	"IMDB_Rating": 79
+}, {
+	"Genre": "Comedy",
+	"Title": "Grace and Frankie",
+	"Subgenre": "Comedy-drama",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 3,
+	"Episodes": 39,
+	"IMDB_Rating": 82
+}, {
+	"Genre": "Comedy",
+	"Title": "Master of None",
+	"Subgenre": "Comedy-drama",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 2,
+	"Episodes": 20,
+	"IMDB_Rating": 83
+}, {
+	"Genre": "Comedy",
+	"Title": "W/ Bob & David",
+	"Subgenre": "Sketch comedy",
+	"Premiere_Year": 2015,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 5,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Comedy",
+	"Title": "Wet Hot American Summer: First Day of Camp",
+	"Subgenre": "Satirical comedy",
+	"Premiere_Year": 2015,
+	"Status": "NA",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 75
+}, {
+	"Genre": "Comedy",
+	"Title": "F Is for Family",
+	"Subgenre": "Sitcom",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 2,
+	"Episodes": 16,
+	"IMDB_Rating": 79
+}, {
+	"Genre": "Comedy",
+	"Title": "Love",
+	"Subgenre": "Romantic comedy",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 22,
+	"IMDB_Rating": 78
+}, {
+	"Genre": "Comedy",
+	"Title": "Fuller House",
+	"Subgenre": "Sitcom",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 26,
+	"IMDB_Rating": 71
+}, {
+	"Genre": "Comedy",
+	"Title": "Flaked",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 2,
+	"Episodes": 14,
+	"IMDB_Rating": 72
+}, {
+	"Genre": "Comedy",
+	"Title": "Netflix Presents: The Characters",
+	"Subgenre": "Sketch comedy",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 53
+}, {
+	"Genre": "Comedy",
+	"Title": "The Ranch",
+	"Subgenre": "Sitcom",
+	"Premiere_Year": 2016,
+	"Status": "Ongoing",
+	"Seasons": 1,
+	"Episodes": 20,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Comedy",
+	"Title": "Lady Dynamite",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 12,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Comedy",
+	"Title": "Easy",
+	"Subgenre": "Romantic comedy anthology series",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 68
+}, {
+	"Genre": "Comedy",
+	"Title": "Haters Back Off",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 62
+}, {
+	"Genre": "Comedy",
+	"Title": "Trailer Park Boys Out of the Park: Europe",
+	"Subgenre": "Mockumentary",
+	"Premiere_Year": 2016,
+	"Status": "NA",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 72
+}, {
+	"Genre": "Comedy",
+	"Title": "Lovesick (season 2)",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 81
+}, {
+	"Genre": "Comedy",
+	"Title": "One Day at a Time",
+	"Subgenre": "Sitcom",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 81
+}, {
+	"Genre": "Comedy",
+	"Title": "Santa Clarita Diet",
+	"Subgenre": "Comedy-horror",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 77
+}, {
+	"Genre": "Comedy",
+	"Title": "Mystery Science Theater 3000: The Return",
+	"Subgenre": "Comic science fiction",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 14,
+	"IMDB_Rating": 86
+}, {
+	"Genre": "Comedy",
+	"Title": "Girlboss",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 72
+}, {
+	"Genre": "Comedy",
+	"Title": "Dear White People",
+	"Subgenre": "Satire/Drama",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 64
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Chef's Table",
+	"Subgenre": "Culinary art",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 3,
+	"Episodes": 18,
+	"IMDB_Rating": 87
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Making a Murderer",
+	"Subgenre": "Crime drama",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 88
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Chelsea Does",
+	"Subgenre": "Comedy",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 4,
+	"IMDB_Rating": 75
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Cooked",
+	"Subgenre": "Culinary art",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 4,
+	"IMDB_Rating": 82
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Last Chance U",
+	"Subgenre": "Sport",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 85
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Fearless",
+	"Subgenre": "Sport",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 0
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Chef's Table: France",
+	"Subgenre": "Culinary art",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 4,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Roman Empire: Reign of Blood",
+	"Subgenre": "Historical drama",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 67
+}, {
+	"Genre": "Docu-Series",
+	"Title": "White Rabbit Project",
+	"Subgenre": "Science investigation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 70
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Captive",
+	"Subgenre": "Documentary",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 53
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Abstract: The Art of Design",
+	"Subgenre": "Documentary",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 86
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Five Came Back",
+	"Subgenre": "Documentary",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 3,
+	"IMDB_Rating": 86
+}, {
+	"Genre": "Docu-Series",
+	"Title": "Hot Girls Wanted: Turned On",
+	"Subgenre": "Documentary",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 69
+}, {
+	"Genre": "Docu-Series",
+	"Title": "The Keepers",
+	"Subgenre": "Documentary",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 7,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Drama",
+	"Title": "House of Cards",
+	"Subgenre": "Political drama",
+	"Premiere_Year": 2013,
+	"Status": "Pending",
+	"Seasons": 5,
+	"Episodes": 65,
+	"IMDB_Rating": 90
+}, {
+	"Genre": "Drama",
+	"Title": "Hemlock Grove",
+	"Subgenre": "Horror/thriller",
+	"Premiere_Year": 2013,
+	"Status": "Ended",
+	"Seasons": 3,
+	"Episodes": 33,
+	"IMDB_Rating": 72
+}, {
+	"Genre": "Drama",
+	"Title": "Orange Is the New Black",
+	"Subgenre": "Comedy-drama",
+	"Premiere_Year": 2013,
+	"Status": "Renewed",
+	"Seasons": 5,
+	"Episodes": 65,
+	"IMDB_Rating": 83
+}, {
+	"Genre": "Drama",
+	"Title": "Marco Polo",
+	"Subgenre": "Historical drama",
+	"Premiere_Year": 2014,
+	"Status": "Ended",
+	"Seasons": 2,
+	"Episodes": 20,
+	"IMDB_Rating": 81
+}, {
+	"Genre": "Drama",
+	"Title": "The Killing (season 4)",
+	"Subgenre": "Crime drama",
+	"Premiere_Year": 2014,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 77
+}, {
+	"Genre": "Drama",
+	"Title": "Bloodline",
+	"Subgenre": "Thriller",
+	"Premiere_Year": 2015,
+	"Status": "Ended",
+	"Seasons": 3,
+	"Episodes": 33,
+	"IMDB_Rating": 82
+}, {
+	"Genre": "Drama",
+	"Title": "Sense8",
+	"Subgenre": "Science fiction",
+	"Premiere_Year": 2015,
+	"Status": "Ended",
+	"Seasons": 2,
+	"Episodes": 23,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Drama",
+	"Title": "Narcos",
+	"Subgenre": "Crime drama",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 20,
+	"IMDB_Rating": 89
+}, {
+	"Genre": "Drama",
+	"Title": "Longmire (seasons 4 and 5)",
+	"Subgenre": "Crime drama",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 20,
+	"IMDB_Rating": 83
+}, {
+	"Genre": "Drama",
+	"Title": "Stranger Things",
+	"Subgenre": "Science fiction/horror",
+	"Premiere_Year": 2016,
+	"Status": "Ongoing",
+	"Seasons": 1,
+	"Episodes": 9,
+	"IMDB_Rating": 90
+}, {
+	"Genre": "Drama",
+	"Title": "The Get Down",
+	"Subgenre": "Musical drama",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 11,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Drama",
+	"Title": "The Crown",
+	"Subgenre": "Historical drama",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 88
+}, {
+	"Genre": "Drama",
+	"Title": "The OA",
+	"Subgenre": "Mystery",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 79
+}, {
+	"Genre": "Drama",
+	"Title": "Gilmore Girls: A Year in the Life",
+	"Subgenre": "Family drama",
+	"Premiere_Year": 2016,
+	"Status": "NA",
+	"Seasons": 1,
+	"Episodes": 4,
+	"IMDB_Rating": 80
+}, {
+	"Genre": "Drama",
+	"Title": "Black Mirror (season 3)",
+	"Subgenre": "Science fictionanthology series",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 89
+}, {
+	"Genre": "Drama",
+	"Title": "A Series of Unfortunate Events",
+	"Subgenre": "Black-comedy mystery",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 80
+}, {
+	"Genre": "Drama",
+	"Title": "13 Reasons Why",
+	"Subgenre": "Teen drama/mystery",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 86
+}, {
+	"Genre": "Drama",
+	"Title": "The Last Kingdom (season 2) (co-production with BBC Two)",
+	"Subgenre": "Period drama",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 83
+}, {
+	"Genre": "Family Animation",
+	"Title": "Ever After High",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2013,
+	"Status": "Pending",
+	"Seasons": 4,
+	"Episodes": 16,
+	"IMDB_Rating": 81
+}, {
+	"Genre": "Family Animation",
+	"Title": "Turbo FAST",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2013,
+	"Status": "Ended",
+	"Seasons": 3,
+	"Episodes": 52,
+	"IMDB_Rating": 71
+}, {
+	"Genre": "Family Animation",
+	"Title": "VeggieTales in the House",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2014,
+	"Status": "Ended",
+	"Seasons": 4,
+	"Episodes": 52,
+	"IMDB_Rating": 50
+}, {
+	"Genre": "Family Animation",
+	"Title": "All Hail King Julien",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2014,
+	"Status": "Ended",
+	"Seasons": 4,
+	"Episodes": 52,
+	"IMDB_Rating": 75
+}, {
+	"Genre": "Family Animation",
+	"Title": "The Adventures of Puss in Boots",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 4,
+	"Episodes": 52,
+	"IMDB_Rating": 69
+}, {
+	"Genre": "Family Animation",
+	"Title": "Dinotrux",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 4,
+	"Episodes": 46,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Family Animation",
+	"Title": "The Mr. Peabody & Sherman Show",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 4,
+	"Episodes": 52,
+	"IMDB_Rating": 61
+}, {
+	"Genre": "Family Animation",
+	"Title": "Popples",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Ended",
+	"Seasons": 3,
+	"Episodes": 26,
+	"IMDB_Rating": 66
+}, {
+	"Genre": "Family Animation",
+	"Title": "Care Bears & Cousins",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Ended",
+	"Seasons": 2,
+	"Episodes": 12,
+	"IMDB_Rating": 74
+}, {
+	"Genre": "Family Animation",
+	"Title": "Dawn of the Croods",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 3,
+	"Episodes": 39,
+	"IMDB_Rating": 61
+}, {
+	"Genre": "Family Animation",
+	"Title": "DreamWorks Dragons (seasons 3, 4, 5 and 6)",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2015,
+	"Status": "Pending",
+	"Seasons": 4,
+	"Episodes": 52,
+	"IMDB_Rating": 85
+}, {
+	"Genre": "Family Animation",
+	"Title": "Lego Bionicle: The Journey to One",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 2,
+	"Episodes": 5,
+	"IMDB_Rating": 71
+}, {
+	"Genre": "Family Animation",
+	"Title": "Lego Friends: The Power of Friendship",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 2,
+	"Episodes": 4,
+	"IMDB_Rating": 65
+}, {
+	"Genre": "Family Animation",
+	"Title": "Kong: King of the Apes",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 64
+}, {
+	"Genre": "Family Animation",
+	"Title": "Voltron: Legendary Defender",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 24,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Family Animation",
+	"Title": "Justin Time GO!",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 73
+}, {
+	"Genre": "Family Animation",
+	"Title": "Word Party",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 2,
+	"Episodes": 26,
+	"IMDB_Rating": 77
+}, {
+	"Genre": "Family Animation",
+	"Title": "Home: Adventures with Tip & Oh",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 2,
+	"Episodes": 26,
+	"IMDB_Rating": 64
+}, {
+	"Genre": "Family Animation",
+	"Title": "Ask the StoryBots",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 83
+}, {
+	"Genre": "Family Animation",
+	"Title": "Kulipari: An Army of Frogs",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 79
+}, {
+	"Genre": "Family Animation",
+	"Title": "StoryBots Super Songs",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 5,
+	"IMDB_Rating": 96
+}, {
+	"Genre": "Family Animation",
+	"Title": "Skylanders Academy",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 12,
+	"IMDB_Rating": 71
+}, {
+	"Genre": "Family Animation",
+	"Title": "World of Winx",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Ongoing",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 85
+}, {
+	"Genre": "Family Animation",
+	"Title": "Luna Petunia",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 11,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Family Animation",
+	"Title": "Trollhunters",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 26,
+	"IMDB_Rating": 86
+}, {
+	"Genre": "Family Animation",
+	"Title": "Tarzan and Jane",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 59
+}, {
+	"Genre": "Family Animation",
+	"Title": "We're Lalaloopsy",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 0
+}, {
+	"Genre": "Family Animation",
+	"Title": "VeggieTales in the City",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 72
+}, {
+	"Genre": "Family Animation",
+	"Title": "Legend Quest",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 41
+}, {
+	"Genre": "Family Animation",
+	"Title": "Buddy Thunderstruck",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 12,
+	"IMDB_Rating": 83
+}, {
+	"Genre": "Family Animation",
+	"Title": "Spirit Riding Free",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 6,
+	"IMDB_Rating": 61
+}, {
+	"Genre": "Family Animation",
+	"Title": "All Hail King Julien: Exiled",
+	"Subgenre": "Animation",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 92
+}, {
+	"Genre": "Family Live Action",
+	"Title": "Richie Rich",
+	"Subgenre": "Sitcom",
+	"Premiere_Year": 2015,
+	"Status": "Ended",
+	"Seasons": 2,
+	"Episodes": 21,
+	"IMDB_Rating": 41
+}, {
+	"Genre": "Family Live Action",
+	"Title": "Project Mc2",
+	"Subgenre": "Comedy/educational",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 3,
+	"Episodes": 15,
+	"IMDB_Rating": 0
+}, {
+	"Genre": "Family Live Action",
+	"Title": "Julie's Greenroom",
+	"Subgenre": "Educational",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 89
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Club de Cuervos",
+	"Subgenre": "Comedy-drama",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 23,
+	"IMDB_Rating": 81
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Marseille",
+	"Subgenre": "Political drama",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 69
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Hibana (Spark)",
+	"Subgenre": "Drama",
+	"Premiere_Year": 2016,
+	"Status": "Ended",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 81
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Midnight Diner: Tokyo Stories",
+	"Subgenre": "Drama",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 84
+}, {
+	"Genre": "Foreign Language",
+	"Title": 0.03,
+	"Subgenre": "Science fiction",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Samurai Gourmet",
+	"Subgenre": "Drama",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 12,
+	"IMDB_Rating": 89
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Ingobernable",
+	"Subgenre": "Political drama",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 15,
+	"IMDB_Rating": 73
+}, {
+	"Genre": "Foreign Language",
+	"Title": "Las Chicas del Cable (Cable Girls)",
+	"Subgenre": "Period drama",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 8,
+	"IMDB_Rating": 76
+}, {
+	"Genre": "Marvel",
+	"Title": "Marvel's Daredevil",
+	"Subgenre": "Crime drama/legal drama",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 2,
+	"Episodes": 26,
+	"IMDB_Rating": 87
+}, {
+	"Genre": "Marvel",
+	"Title": "Marvel's Jessica Jones",
+	"Subgenre": "Neo-noir/psychological thriller",
+	"Premiere_Year": 2015,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 82
+}, {
+	"Genre": "Marvel",
+	"Title": "Marvel's Luke Cage",
+	"Subgenre": "Neo-blaxploitation",
+	"Premiere_Year": 2016,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 77
+}, {
+	"Genre": "Marvel",
+	"Title": "Marvel's Iron Fist",
+	"Subgenre": "Martial arts/mystery fiction",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 72
+}, {
+	"Genre": "Reality",
+	"Title": "Chasing Cameron",
+	"Subgenre": "Celebrity",
+	"Premiere_Year": 2016,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 40
+}, {
+	"Genre": "Reality",
+	"Title": "Ultimate Beastmaster[a]",
+	"Subgenre": "Competition",
+	"Premiere_Year": 2017,
+	"Status": "Renewed",
+	"Seasons": 1,
+	"Episodes": 10,
+	"IMDB_Rating": 73
+}, {
+	"Genre": "Talk Show",
+	"Title": "Chelsea",
+	"Subgenre": "Talk Show",
+	"Premiere_Year": 2016,
+	"Status": "Ongoing",
+	"Seasons": 1,
+	"Episodes": 90,
+	"IMDB_Rating": 67
+}, {
+	"Genre": "Talk Show",
+	"Title": "Bill Nye Saves the World",
+	"Subgenre": "Talk Show",
+	"Premiere_Year": 2017,
+	"Status": "Pending",
+	"Seasons": 1,
+	"Episodes": 13,
+	"IMDB_Rating": 33
+}]
