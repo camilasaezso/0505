@@ -10,7 +10,7 @@
         <style>
             body {
                 color: white;
-                background: black url(img/tonga-eruption.jpg) top center no-repeat;
+                background:  linear-gradient(180deg, rgba(131,0,0,1) 0%, rgba(9,0,0,1) 41%);
                 background-size: 75% auto;
                 font-weight: 300;
                 font-family: 'PT Sans', sans-serif;
@@ -134,7 +134,13 @@
 
                         <p><em>Ahora se puede complementar la lectura del gráfico de arriba y buscar una conexión con que sigue abajo</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie metus in mi pellentesque, eu malesuada diam ultricies. Mauris ultrices, ligula nec vulputate bibendum, nisi neque ultricies sem, eget volutpat magna nulla quis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec est ex. Nulla nunc elit, mattis vel justo ac, iaculis interdum tellus.</p>
                         <canvas id="segundoChart" width="100" height="100" class="mb-5"></canvas>
-
+                        <div class="container">
+                           <div class="row">
+                               <div class="col-md-6 mx-auto">
+                                   <div id="secuencia" class="m-5"></div>
+                               </div>
+                           </div>
+                       </div>
                     </div>
                     <div class="col-md-10 mx-auto my-5">
 
@@ -154,7 +160,7 @@
         <footer class="bg-cierre">
             <div class="container">
                 <div class="row py-3">
-                    <div class="col text-center"><small>Camila Sáez | 12 de mayo, 2022</small></div>
+                    <div class="col text-center">CAMILA SÁEZ | 12 de mayo, 2022</div>
                 </div>
             </div>
         </footer>
@@ -175,6 +181,8 @@
             var generoDocuseries = 0;
             var generoAnimacion = 0;
 
+            var Nombre = [];
+            var Rating = [];
 
             var DramaNombre = [];
             var DramaRating = [];
@@ -190,6 +198,17 @@
 
             var EtcNombre = [];
             var EtcRating = [];
+
+            var Episodios = 0;
+
+            var peliculas = [
+    { img: "https://m.media-amazon.com/images/I/91VRwRtI+ML._SX522_.jpg", txt: "Stranger Things" },
+    { img: "https://media.revistavanityfair.es/photos/60e852c870839211f54458e8/1:1/w_1052,h_1052,c_limit/54153.jpg", txt: "House Of Cards" },
+    { img: "https://delagarde.nl/cache/i/5000/image/5319.w400.7c6dae9.a05c4c8.q80.jpg", txt: "Arrested Development" },
+    { img: "https://dp6mhagng1yw3.cloudfront.net/entries/8th/work_netflix-original-series-narcos-social-campaig.jpg", txt: "Narcos" },
+    { img: "https://i1.sndcdn.com/artworks-000527578461-iq54b0-t500x500.jpg", txt: "Black Mirror" },
+    { img: "https://i.scdn.co/image/ab67616d0000b27386fa331f8d2520989c8c8b72", txt: "The Crown" },
+];
 
             //consultando en cada elemento del arreglo
             data.forEach((d) => {
@@ -218,6 +237,8 @@
 
                 });
 
+            console.log(Nombre);
+            console.log(Rating);
             console.log(DramaNombre);
             console.log(DramaRating);
             console.log(ComedyNombre);
@@ -243,6 +264,25 @@
                     },
                 },
             });
+
+            peliculas.forEach(function (p, i) {
+                if (i % 2 == 0) {
+                    document.getElementById("secuencia").innerHTML +=
+                        '<figure class="row d-flex align-items-center"><img src="' +
+                        p.img +
+                        '" class="img-fluid col-12 col-md-6 rounded-circle" /><figcaption class="col-12 col-md-6"><p class="small py-2 text-center text-md-start">' +
+                        p.txt +
+                        "</p></figcaption></figure>";
+                } else {
+                    document.getElementById("secuencia").innerHTML +=
+                        '<figure class="row d-flex align-items-center"><img src="' +
+                        p.img +
+                        '" class="img-fluid col-12 col-md-6 rounded-circle order-md-2" /><figcaption class="col-12 col-md-6 order-md-1"><p class="small py-2 text-center text-md-end">' +
+                        p.txt +
+                        "</p></figcaption></figure>";
+                }
+            });
+
             //rating
             new Chart(document.getElementById("segundoChart").getContext("2d"), {
                 type: "bar",
