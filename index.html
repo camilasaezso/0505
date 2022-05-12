@@ -175,9 +175,24 @@
             var generoDrama = 0;
             var generoComedia = 0;
             var generoEtc = 0;
+            var generoDocuseries = 0;
+            var generoAnimacion = 0;
+
 
             var DramaNombre = [];
             var DramaRating = [];
+
+            var ComedyNombre = [];
+            var ComedyRating = [];
+
+            var DocuseriesNombre = [];
+            var DocuseriesRating = [];
+
+            var AnimationNombre = [];
+            var AnimationRating = [];
+
+            var EtcNombre = [];
+            var EtcRating = [];
 
             //consultando en cada elemento del arreglo
             data.forEach((d) => {
@@ -187,20 +202,32 @@
                     DramaRating.push(d.IMDB_Rating);
                 } else if (d.Genre == "Comedy") {
                     generoComedia = generoComedia + 1;
-                } else {
-                    generoEtc = generoEtc + 1;
+                    ComedyNombre.push(d.Title);
+                    ComedyRating.push(d.IMDB_Rating);
+                } else if (d.Genre == "Docu-Series") {
+                  generoDocuseries  = generoDocuseries + 1;
+                  DocuseriesNombre.push(d.Title);
+                  DocuseriesRating.push(d.IMDB_Rating);
+                } else if (d.Genre == "Family Animation", "Animation") {
+                    generoAnimacion  = generoAnimacion + 1;
+                    AnimationNombre.push(d.Title);
+                    AnimationRating.push(d.IMDB_Rating);
                 }
-            });
+                else {
+                      generoEtc = generoEtc + 1;
+                }
+
+                });
 
             console.log(DramaNombre);
             console.log(DramaRating);
 
             //edades
             new Chart(document.getElementById("primerChart").getContext("2d"), {
-                type: "pie",
+                type: "doughnut",
                 data: {
-                    labels: ["Drama", "Comedia", "Otros géneros"],
-                    datasets: [{ data: [generoDrama, generoComedia, generoEtc], label: "Total", backgroundColor: ["#f00", "#00f", "#0ff"] }],
+                    labels: ["Drama", "Comedia", "Docuseries", "Animación", "Otros géneros"],
+                    datasets: [{ data: [generoDrama, generoComedia, generoDocuseries, generoAnimacion, generoEtc], label: "Total", backgroundColor: ["#30475E", "#FDD2BF", "#B61919", "#F05454","#E8E8E8"] }],
                 },
                 options: {
                     animation: false,
