@@ -129,14 +129,11 @@
                         <p>Reuters used data from a ground-based global lightning detection network owned and operated by Vaisala, dubbed GLD360, to visualize the lightning activity during the eruption. <em>Los párrafos ofrecen una introducción al tema. Después de la introducción, lo lógico debería ser incluir un gráfico.</em></p>
                         <canvas id="primerChart" width="100" height="100" class="mb-5"></canvas>
                     </div>
-                    <div class="col-md-10 mx-auto my-5">
-
-
-
-                    </div>
+                    <div class="col-md-10 mx-auto my-5"></div>
                     <div class="col-md-6 mx-auto">
 
                         <p><em>Ahora se puede complementar la lectura del gráfico de arriba y buscar una conexión con que sigue abajo</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie metus in mi pellentesque, eu malesuada diam ultricies. Mauris ultrices, ligula nec vulputate bibendum, nisi neque ultricies sem, eget volutpat magna nulla quis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec est ex. Nulla nunc elit, mattis vel justo ac, iaculis interdum tellus.</p>
+                        <canvas id="segundoChart" width="100" height="100" class="mb-5"></canvas>
 
                     </div>
                     <div class="col-md-10 mx-auto my-5">
@@ -213,7 +210,7 @@
                     AnimationNombre.push(d.Title);
                     AnimationRating.push(d.IMDB_Rating);
                 }
-                else {
+                else if (d.Genre == "Marvel", "Foreign Language", "Reality", "Talk Show") {
                       generoEtc = generoEtc + 1;
                 }
 
@@ -221,6 +218,14 @@
 
             console.log(DramaNombre);
             console.log(DramaRating);
+            console.log(ComedyNombre);
+            console.log(ComedyRating);
+            console.log(DocuseriesNombre);
+            console.log(DocuseriesRating);
+            console.log(AnimationNombre);
+            console.log(AnimationRating);
+            console.log(EtcNombre);
+            console.log(EtcRating);
 
             //edades
             new Chart(document.getElementById("primerChart").getContext("2d"), {
@@ -232,10 +237,25 @@
                 options: {
                     animation: false,
                     layout: {
+                        padding: 40,
+                    },
+                },
+            });
+            new Chart(document.getElementById("segundoChart").getContext("2d"), {
+                type: "bar",
+                data: {
+                    labels: DramaNombre, ComedyNombre, DocuseriesNombre, AnimationNombre, EtcNombre,
+                    datasets: [{ data: DramaRating, ComedyRating, DocuseriesRating, AnimationRating, EtcRating, label: "Rating", backgroundColor: ["#8CB1E5"] }],
+                },
+                options: {
+                    indexAxis: "y",
+                    animation: false,
+                    layout: {
                         padding: 10,
                     },
                 },
             });
+
               }
 
 //                new Chart(document.getElementById("miGrafico").getContext("2d"), {
