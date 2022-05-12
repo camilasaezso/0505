@@ -212,6 +212,8 @@
                 }
                 else if (d.Genre == "Marvel", "Foreign Language", "Reality", "Talk Show") {
                       generoEtc = generoEtc + 1;
+                      EtcNombre.push(d.Title);
+                      EtcRating.push(d.IMDB_Rating);
                 }
 
                 });
@@ -227,7 +229,7 @@
             console.log(EtcNombre);
             console.log(EtcRating);
 
-            //edades
+            //generos
             new Chart(document.getElementById("primerChart").getContext("2d"), {
                 type: "doughnut",
                 data: {
@@ -241,6 +243,7 @@
                     },
                 },
             });
+            //rating
             new Chart(document.getElementById("segundoChart").getContext("2d"), {
                 type: "bar",
                 data: {
