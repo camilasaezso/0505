@@ -53,7 +53,7 @@
             }
 
             main p a {
-                text-decoration: underline;
+                text-decoration: none;
             }
 
             p.primero::first-letter {
@@ -87,6 +87,13 @@
                 font-family: 'PT Sans', sans-serif;
 
             }
+
+          .miclasedos {
+              color: #E50914;
+
+          }
+
+
         </style>
         <title>Esto es un ejemplo</title>
     </head>
@@ -96,7 +103,7 @@
                 <div class="row h-100">
                     <div class="col-md-6 mx-auto text-center align-self-end">
                         <h2>El comienzo de una revolución en la industria</h2>
-                        <h1>SERIES ORIGINALES DE NETFLIX DESDE 2013 AL 2017</h1>
+                        <h1>SERIES ORIGINALES DE <span class="miclasedos"> NETFLIX</span> DESDE 2013 AL 2017</h1>
                         <h3 class="fs-5 mb-5">Data shows why the volcanic lightning storm from the Tonga eruption was unlike anything on record.</h3>
                         <p class="miclase">Por <a href="#">Camila Sáez</a></p>
                         <p class="miclase">Publicado el 12 de mayo, 2022</p>
@@ -124,7 +131,7 @@
                     </div>
                     <div class="col-md-10 mx-auto my-5">
 
-                        <canvas id="miGrafico" width="400" height="200"></canvas>
+                        <canvas id="primerChart" width="200" height="200"></canvas>
 
                     </div>
                     <div class="col-md-6 mx-auto">
@@ -150,7 +157,7 @@
         <footer class="bg-cierre">
             <div class="container">
                 <div class="row py-3">
-                    <div class="col text-center"><small>Nombre Apellido | 12 de mayo, 2022</small></div>
+                    <div class="col text-center"><small>Camila Sáez | 12 de mayo, 2022</small></div>
                 </div>
             </div>
         </footer>
@@ -159,8 +166,8 @@
 
         <script>
             async function unaVisualizacion() {
-                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/netflix/main/datos.csv");
-                const data = await consulta.text();
+                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/datos-05-05/main/datos.json");
+                const data = await consulta.json();
 //                const filas = data.split("\n");
 //                const fechas = filas[0].split(",").slice(1);
 //                const activos = filas[5].split(",").slice(1);
