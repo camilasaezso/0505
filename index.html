@@ -3,183 +3,168 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!-- CSS de Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Teko:wght@300;600&display=swap" rel="stylesheet" />
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap");
+            body {
+                color: white;
+                background: black url(img/tonga-eruption.jpg) top center no-repeat;
+                background-size: 75% auto;
+                font-weight: 300;
+                font-family: 'PT Sans', sans-serif;
+            }
 
-            :root {
-                --bs-body-font-family: 'Teko', sans-serif;
-                --bs-body-color: #eef;
-                --bs-body-bg: #10121c;
+            header, footer{
+                font-family: 'Teko', sans-serif;
+            }
+
+            header.titular {
+                height: calc(80vh + 10vw);
+            }
+
+            header h1 {
+                font-weight: 600;
+                font-size: 4rem;
+            }
+            header h2 {
+                font-weight: 600;
+                font-size: 2rem;
+                color: rgba(255, 255, 255, .5);
+            }
+            header h3 {
+                font-family: 'PT Sans', sans-serif;
+                font-weight: 400;
+
+            }
+            a {
+                color: rgba(255, 255, 255, .75);
+            }
+
+            a:hover {
+                color: rgba(255, 255, 255, 1);
+            }
+
+            header p a {
+                font-family: 'PT Sans', sans-serif;
+                font-weight: 600;
+                text-decoration: none;
+            }
+
+            main p a {
+                text-decoration: underline;
+            }
+
+            p.primero::first-letter {
+                color: #E50914;
+                float: left;
+                font-size: 4rem;
+                line-height: 1;
+                margin: 0;
+                padding: 0 0.75rem 0 0;
+            }
+
+            div.card {
+                background: #836072;
+            }
+
+            img.card-img-top {
+                filter: grayscale(1) opacity(.5);
+                transition: ease filter .5s;
+            }
+
+            img.card-img-top:hover {
+                filter: grayscale(0) opacity(1);
+                transition: ease filter .5s;
+            }
+
+            .bg-cierre {
+                background: #141421;
+
+            }
+            .miclase {
+                font-family: 'PT Sans', sans-serif;
+
             }
         </style>
-        <title>Netflix Originals (2013 - 2017)</title>
+        <title>Esto es un ejemplo</title>
     </head>
     <body>
-        <header>
-            <div class="container">
-                <div class="row pt-5">
-                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
-                        <h1 class="display-4 text-center py-2">SERIES ORIGINALES DE NETFLIX DEL 2013 AL 2017</h1>
-                        <p class="lead">
-                          Netflix es un proveedor estadounidense de streaming por internet global bajo demanda que ha distribuido una gran cantidad de programas originales, incluyendo series, especiales (como stand-ups), miniseries, documentales y películas. Las producciones originales de Netflix también son continuaciones de series canceladas anteriormente por otras cadenas, así como contenido licenciado o coproducido por difusoras internacionales para la transmisión exclusiva de estas en otros territorios, las cuales se encuentran catalogadas como contenido original de Netflix en esas regiones.
-
-                        </p>
-                        <p>
-                          Desde que la compañía lanzó en 2013, House of Cards, primera producción original autofinanciada, su contenido ha aumentado drásticamente.
-
-                        </p>
-                        <p>De los <a href="https://github.com/camilasaezso/datos-05-05/blob/main/datos.csv" target="_blank" class="link-light">registros de 891 pasajeros</a>, podemos obtener algunos datos:</p>
+        <header class="titular">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-6 mx-auto text-center align-self-end">
+                        <h2>El comienzo de una revolución en la industria</h2>
+                        <h1>SERIES ORIGINALES DE NETFLIX DESDE 2013 AL 2017</h1>
+                        <h3 class="fs-5 mb-5">Data shows why the volcanic lightning storm from the Tonga eruption was unlike anything on record.</h3>
+                        <p class="miclase">Por <a href="#">Camila Sáez</a></p>
+                        <p class="miclase">Publicado el 12 de mayo, 2022</p>
                     </div>
                 </div>
             </div>
         </header>
+        <main>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
 
-        <main class="container">
-            <div class="accordion mx-md-5 my-5 rounded-0" id="accordionExample">
-                <!--Edades de pasajeros-->
-                <div class="accordion-item rounded-0">
-                    <h2 class="accordion-header bg-dark" id="headingOne">
-                        <button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Géneros</button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-black-50">
-                            <p>
-                                Aquí mostramos los principales géneros de las series estrenadas por Netflix desde 2013.
-                            </p>
-                            <div class="col-md-6 mx-auto mb-3">
-                                <canvas id="primerChart" width="100" height="100"></canvas>
-                            </div>
-                        </div>
+                        <p class="primero">Volcanic eruptions tend to evoke images of flowing molten lava and giant ash plumes, but when an underwater volcano off Tonga began a major eruption on Jan. 13, it was accompanied by one of the largest volcanic lightning events ever recorded</p>
+
+                        <p>The surrounding islands in the Tonga archipelago in the South Pacific Ocean were completely engulfed in lightning at various stages of the eruption which lasted days.</p>
+
+                        <p>“I can’t imagine what the people on the islands would have been going through, with a huge ash cloud overhead, a tsunami flooding everything they own, and cloud-to-ground lightning coming down around them. It must have felt apocalyptic.” said Chris Vagasky, a meteorologist at Vaisala, a Finland-based environmental technology company.</p>
+
+                        <p>The Hunga Tonga-Hunga Ha'apai volcanic island lies about 65 km (40 miles) north of Nuku'alofa, the capital of Tonga. Scientists said the volcano – which last experienced a major eruption in 2014 – had been puffing away for about a month before a series of blasts began on Jan. 13. Rising magma, superheated to around 1,000 degrees Celsius (1,832 Fahrenheit), then met with 20 degree (68 Fahrenheit) seawater on Jan. 15, causing an instantaneous and massive explosion.</p>
+
+                        <p>Scientists are still studying the behaviour of the lightning. “One of the things that I’m really interested in looking at is the wave pattern in the lightning. As the eruption plume hit the stratosphere and spread outward, it appears to have created waves in the atmosphere,” said Vagasky.</p>
+
+                        <p>Reuters used data from a ground-based global lightning detection network owned and operated by Vaisala, dubbed GLD360, to visualize the lightning activity during the eruption. <em>Los párrafos ofrecen una introducción al tema. Después de la introducción, lo lógico debería ser incluir un gráfico.</em></p>
+
                     </div>
-                </div>
-                <!--Pasajeras y pasajeros-->
-                <div class="accordion-item rounded-0">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Pasajeras y pasajeros</button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-black-50">
-                            <p>2do gráfico texto</p>
-                            <div class="col-md-6 mx-auto mb-3">
-                                <canvas id="segundoChart" width="100" height="100"></canvas>
-                            </div>
-                        </div>
+                    <div class="col-md-10 mx-auto my-5">
+
+                        <canvas id="miGrafico" width="400" height="200"></canvas>
+
                     </div>
-                </div>
-                <!--Clases-->
-                <div class="accordion-item rounded-0">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Las tres clases</button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-black-50">
-                            <p>
-                                3er grafico texto
-                                <span id="tercerChart"></span>.
-                            </p>
-                            <div class="col-md-6 mx-auto mb-3">
-                                <canvas id="clasista" width="100" height="100"></canvas>
-                            </div>
-                        </div>
+                    <div class="col-md-6 mx-auto">
+
+                        <p><em>Ahora se puede complementar la lectura del gráfico de arriba y buscar una conexión con que sigue abajo</em>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie metus in mi pellentesque, eu malesuada diam ultricies. Mauris ultrices, ligula nec vulputate bibendum, nisi neque ultricies sem, eget volutpat magna nulla quis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec est ex. Nulla nunc elit, mattis vel justo ac, iaculis interdum tellus.</p>
+
                     </div>
-                </div>
-                <!--Sobrevivientes por clases-->
-                <div class="accordion-item rounded-0">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Sobrevivientes por clase</button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-black-50">
-                            <p>
-                                4to texto
-                            </p>
-                            <canvas id="cuartoChart" width="100" height="50"></canvas>
-                        </div>
+                    <div class="col-md-10 mx-auto my-5">
+
+                        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-3 text-center" id="aqui"></div>
+
                     </div>
-                </div>
-                <!--Mujeres y niños primero-->
-                <div class="accordion-item rounded-0">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">¡Mujeres y niños primero!</button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-black-50">
-                            <p>5to texto</p>
-                            <canvas id="quintoChart" width="100" height="30"></canvas>
-                        </div>
+                    <div class="col-md-6 mx-auto">
+
+                        <p><em>Este último párrafo debe ser el cierre de lo presentado</em>. Mauris ultrices, ligula nec vulputate bibendum, nisi neque ultricies sem, eget volutpat magna nulla quis libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nec est ex. Nulla nunc elit, mattis vel justo ac, iaculis interdum tellus. Praesent id orci leo. Phasellus eleifend tellus cursus enim imperdiet, ullamcorper ullamcorper augue volutpat. Sed at mi in magna imperdiet accumsan. Aenean cursus velit urna, lacinia hendrerit turpis congue vitae. Cras non tortor vestibulum, efficitur est vitae, posuere justo.</p>
+
+                        <p class="small my-5">Este párrafo más pequeño debería entregar información adicional: Que se trata de un trabajo para el electivo de <a href="https://github.com/profesorfaco/front-end">Introducción al Desarrollo Front End con HTML, CSS y JavaScript</a>; que el trabajo está "inspirado" en <a href="https://graphics.reuters.com/TONGA-VOLCANO/LIGHTNING/zgpomjdbypd/">Analysing the volcanic lightning from the Tonga eruption</a>, que originalmente fue desarrollado para <a href="https://graphics.reuters.com/">Reuters Graphics</a> por Manas Sharma y Simon Scarr; que el trabajo se resuelve con <a href="https://getbootstrap.com/">Bootstrap</a> y <a href="https://www.chartjs.org/">Charts.js</a>, además de consultas a un <a href="https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv">CSV</a> y un <a href="https://digimon-api.vercel.app/api/digimon">JSON</a>; etc.</p>
+
                     </div>
-                </div>
-                <!--Extra-->
-                <div class="accordion-item rounded-0">
-                    <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFive">✨ Hay más que donas y barras ✨</button>
-                    </h2>
-                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-black-50">
-                            <p>Los gráficos de donas muestran cómo se divide algo, mientras que los gráficos de barra muestran las diferencias o similitudes entre valores que no son, necesariamente, partes de algo dividido.</p>
-
-                            <p>Pero esos dos no son los únicos gráficos disponibles en <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>. También tenemos <a href="https://datavizcatalogue.com/ES/metodos/diagrama_de_dispersion.html" target="_blank">gráficos de dispersión</a> y <a href="https://datavizcatalogue.com/ES/metodos/grafico_de_burbujas.html" target="_blank">gráficos de burbujas</a>, que nos pueden mostrar cómo se agrupan datos a lo largo de un intervalo.</p>
-
-                            <h5 class="mt-4 text-center">Gráfico de dispersión</h5>
-
-                            <canvas id="sextoChart" width="100" height="50"></canvas>
-
-                            <h5 class="mt-5 text-center">Gráfico de burbujas</h5>
-
-                            <canvas id="septimoChart" width="100" height="50"></canvas>
-
-                            <p class="small mt-5 text-muted">Otros gráficos que pueden resolver con Chart.js son los de <a href="https://www.chartjs.org/docs/latest/charts/line.html" target="_blank">línea</a>, <a href="https://www.chartjs.org/docs/latest/charts/polar.html" target="_blank">área polar</a> y <a href="https://www.chartjs.org/docs/latest/charts/radar.html" target="_blank">radar</a>. Cada gráfico puede ayudarnos a hacer evidente algo determinado. La ayuda que nos presta cada uno es su función y cada función se explica brevemente en la misma documentación de Chart.js; para explicaciones más detalladas conviene revisar <a href="https://datavizcatalogue.com/ES/buscar.html" target="_blank">Datavis Catalogue</a>.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Fin-->
-            </div>
-            <div class="row">
-                <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
-                    <p>Los registros de 891 representan una parte de los más de 2.400 personas que viajaban en el Titanic aquel fatídico 14 de abril de 1912, cuando la nave choca con el iceberg faltando minutos para la medianoche.</p>
                 </div>
             </div>
         </main>
-
-        <aside>
+        <footer class="bg-cierre">
             <div class="container">
-                <div class="row py-5">
-                    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto small text-center">
-                        <p>
-                            Fuentes: <a href="https://historia.nationalgeographic.com.es/a/historia-titanic-tragedia-barco-insumergible_16344">La historia del Titanic, la tragedia del barco insumergible</a>,
-                            <a href="https://rpubs.com/paraneda/titanic">RPubs - Titanic</a>, otra y otra más.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col"><p class="text-muted mt-5 text-center small">Bootstrap v5.1 y Charts.js</p></div>
+                <div class="row py-3">
+                    <div class="col text-center"><small>Nombre Apellido | 12 de mayo, 2022</small></div>
                 </div>
             </div>
         </footer>
 
-        <!-- Biblioteca de Bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <!-- Biblioteca Chart.js -->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"
-            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
-        <!-- Un gran script, que contiene una función asincrónica para ir a buscar un JSON con -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         <script>
-            async function todo() {
-                //el fetch
-                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/datos-05-05/main/datos.json");
-                const data = await consulta.json();
-                //algunas variables para calcular
+            async function unaVisualizacion() {
+                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/netflix/main/datos.csv");
+                const data = await consulta.text();
+//                const filas = data.split("\n");
+//                const fechas = filas[0].split(",").slice(1);
+//                const activos = filas[5].split(",").slice(1);
+
                 console.log(data);
 
 
@@ -208,7 +193,7 @@
                     }
                     else if (id.Genre == "Marvel", "Foreign Language", "Reality", "Talk Show") {
                       generoOtros  = generoOtros + 1;
-                 }
+                 },
                });
                 //generos
                 new Chart(document.getElementById("primerChart").getContext("2d"), {
@@ -225,171 +210,43 @@
                     },
                 });
 
-                //hombres y mujeres
-                new Chart(document.getElementById("segundoChart").getContext("2d"), {
-                    type: "doughnut",
-                    data: {
-                        labels: ["Mujeres", "Hombres"],
-                        datasets: [{ data: [mujeres, hombres], label: "Sexo", backgroundColor: ["#8856a7", "#495F8F"] }],
-                    },
-                    options: {
-                        animation: false,
-                        layout: {
-                            padding: 10,
-                        },
-                    },
-                });
+//                new Chart(document.getElementById("miGrafico").getContext("2d"), {
+//                    type: "bar",
+//                    data: {
+//                        labels: fechas,
+//                        datasets: [{ data: activos, backgroundColor: "#836072" }],
+//                    },
+//                    options: {
+//                        scales: {
+//                            y: {
+//                                ticks: {
+//                                    callback: function (numero) {
+//                                        return numero.toLocaleString("es-CL");
+//                                    },
+//                                },
+//                            },
+//                        },
+//                        plugins: {
+//                            legend: { display: false },
+//                            title: { display: true, text: "CASOS ACTIVOS DE COVID-19 EN CHILE" },
+//                        },
+//                    },
+//                });
+            }
+            unaVisualizacion();
 
-                // clases
-                new Chart(document.getElementById("tercerChart").getContext("2d"), {
-                    type: "doughnut",
-                    data: {
-                        labels: ["Primera clase", "Segunda clase", "Tercera clase"],
-                        datasets: [{ data: [cuantosPrimera, cuantosSegunda, cuantosTercera], label: "Clases titanic", backgroundColor: ["#D9B4B2", "#9EBCDA", "#495F8F"] }],
-                    },
-                    options: {
-                        animation: false,
-                        layout: {
-                            padding: 10,
-                        },
-                    },
-                });
-
-                //sobrevivientes y muertes por clase
-                new Chart(document.getElementById("cuartoChart").getContext("2d"), {
-                    type: "bar",
-                    data: {
-                        labels: ["Primera clase", "Segunda Clase", "Tercera Clase"],
-                        datasets: [
-                            { data: [vivosPrimera, vivosSegunda, vivosTercera], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
-                            { data: [muertosPrimera, muertosSegunda, muertosTercera], label: "Mueren", backgroundColor: ["#334"] },
-                        ],
-                    },
-                    options: {
-                        indexAxis: "y",
-                        animation: false,
-                        layout: {
-                            padding: 10,
-                        },
-                    },
-                });
-
-                //sobrevivientes y muertes por edad y sexo (mujeres y niños primero)
-                new Chart(document.getElementById("quintoChart").getContext("2d"), {
-                    type: "bar",
-                    data: {
-                        labels: ["Mujeres", "Niños", "Hombres"],
-                        datasets: [
-                            { data: [mujeresSalvadas, ninesSalvades, hombresSalvados], label: "Sobreviven", backgroundColor: ["#8CB1E5"] },
-                            { data: [mujeresMuertas, ninesMuertes, hombresMuertos], label: "Mueren", backgroundColor: ["#334"] },
-                        ],
-                    },
-                    options: {
-                        indexAxis: "y",
-                        animation: false,
-                        layout: {
-                            padding: 10,
-                        },
-                    },
-                });
-}
-            todo().catch((error) => console.error(error));
-        </script>
-        <!--otro para los extras-->
-        <script>
-            // No todo se resuelve con pie, doughthout o barras, a veces se necesitan otros gráficos
-
-            async function otro() {
-                //el fetch
-                const consulta = await fetch("https://raw.githubusercontent.com/camilasaezso/datos-05-05/main/datos.json");
+            async function otraVisualizacion() {
+                const consulta = await fetch("https://github.com/camilasaezso/datos-05-05/blob/main/datos.csv");
                 const data = await consulta.json();
-                var puntos = [];
-                var burbujas = [];
                 data.forEach((d) => {
-                    let info = { x: d.pib_per_capita, y: d.idh, pais: d.pais };
-                    let mas = { x: d.pib_per_capita, y: d.idh, r: Math.round(d.poblacion / 50000000), pais: d.pais };
-                    puntos.push(info);
-                    burbujas.push(mas);
-                });
-                console.log(burbujas);
-                //Gráfico de dispersión
-                //Para evidenciar si existe una relación o correlación entre las dos variables
-                new Chart(document.getElementById("sextoChart").getContext("2d"), {
-                    type: "scatter",
-                    data: {
-                        datasets: [
-                            {
-                                label: "Índice de desarrollo humano y renta per cápita",
-                                data: puntos,
-                                backgroundColor: "rgba(0,100,255,.5)",
-                                pointRadius: 5,
-                            },
-                        ],
-                    },
-                    options: {
-                        animation: false,
-                        scales: {
-                            x: {
-                                max:140000,
-                                ticks: {
-                                    callback: function (numero) {
-                                        return "€ " + numero.toLocaleString("es-CL");
-                                    }
-                                }
-                            }
-                        },
-                        plugins: {
-                            tooltip: {
-                                callbacks: {
-                                    label: (context) => {
-                                        console.log(context);
-                                        return context.raw.pais + " tiene un PIB per cápita de € " + context.raw.x.toLocaleString("es-CL");
-                                    },
-                                }
-                            },
-                        },
-                    },
-                });
-                //Gráfico de burbujas
-                //Para analizar patrones o correlaciones de dos valores, considerando un tercer valor que se presenta en su radio
-                new Chart(document.getElementById("septimoChart").getContext("2d"), {
-                    type: "bubble",
-                    data: {
-                        datasets: [
-                            {
-                                label: "Índice de desarrollo humano y renta per cápita, con población",
-                                data: burbujas,
-                                backgroundColor: "rgba(0,100,255,.5)",
-                                pointRadius: 5,
-                            },
-                        ],
-                    },
-                    options: {
-                        animation: false,
-                        scales: {
-                            x: {
-                                max:140000,
-                                ticks: {
-                                    callback: function (numero) {
-                                        return "€ " + numero.toLocaleString("es-CL");
-                                    }
-                                }
-                            }
-                        },
-                        plugins: {
-                            tooltip: {
-                                callbacks: {
-                                    label: (context) => {
-                                        console.log(context);
-                                        return context.raw.pais + " tiene un PIB per cápita de € " + context.raw.x.toLocaleString("es-CL");
-                                    },
-                                },
-                            },
-                        },
-                    },
+                    if (d.level == "Ultimate") {
+                        document.getElementById("aqui").innerHTML += '<div><div class="card shadow-sm"><img class="card-img-top" src="' + d.img + '"></div></div>';
+                    }
                 });
             }
-            otro().catch((error) => console.error(error));
+            otraVisualizacion();
         </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
